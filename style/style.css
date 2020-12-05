@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body header {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff2f4;
+}
+
+body header .dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+body header .dropdown-toggle:hover {
+  background-color: transparent;
+  color: black;
+}
+
+body header .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .row .right-side {
+  text-align: right;
+}
+
+body header .row .right-side .dropdown {
+  background-color: transparent;
+}
+
+body header nav {
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav .row .center-nav h1 {
+  text-align: center;
+  color: #ffb0bd;
+  letter-spacing: -4px;
+  font-family: "Prata", serif;
+  font-size: 60px;
+}
+
+body header nav .row .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav .row .right-nav ul {
+  width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav .row .right-nav img {
+  width: 15px;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .left-side img {
+  width: 100%;
+}
+
+body main .right-side {
+  margin-top: 3%;
+}
+
+body main .right-side .container .upper h2 {
+  text-transform: capitalize;
+  font-family: "Prata", serif;
+}
+
+body main .right-side .container .upper span {
+  font-weight: 600;
+}
+
+body main .right-side .container .text {
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  border: solid grey 1px;
+}
+
+body main .right-side .container .text h2 {
+  font-family: "Prata", serif;
+  font-weight: 500;
+}
+
+body main .right-side .container .text span {
+  word-spacing: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+}
+
+body main .right-side .container .text .checkbox a {
+  text-decoration: underline;
+  color: black;
+}
+
+body main .right-side .container .text button {
+  width: 10em;
+  border: none;
+  background-color: #fde4e9;
+}
+/*# sourceMappingURL=style.css.map */

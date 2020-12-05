@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  #page {
+  }
+  header {
+    width: 100%;
+    align-items: center;
+    .dropdown-toggle {
+      background-color: transparent;
+      border: none;
+      color: black;
+    }
+    .dropdown-toggle:hover {
+      background-color: transparent;
+      color: black;
+    }
+    background-color: rgb(255, 242, 244);
+    .row {
+      align-items: center;
+      .right-side {
+        text-align: right;
+        .dropdown {
+          background-color: transparent;
+        }
+      }
+    }
+    nav {
+      background-color: white;
+      align-items: center;
+      .row {
+        .left-nav {
+        }
+        .center-nav {
+          h1 {
+            text-align: center;
+            color: rgb(255, 176, 189);
+            letter-spacing: -4px;
+            font-family: "Prata", serif;
+            font-size: 60px;
+          }
+        }
+        .right-nav {
+          display: flex;
+          justify-content: space-between;
+          ul {
+            width: 100% !important;
+            display: flex;
+            justify-content: space-between;
+          }
+
+          img {
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+  main {
+    display: flex;
+    .left-side {
+      img {
+        width: 100%;
+      }
+    }
+    .right-side {
+      margin-top: 3%;
+      .container {
+        .upper {
+          h2 {
+            text-transform: capitalize;
+            font-family: "Prata", serif;
+          }
+          span {
+            font-weight: 600;
+          }
+        }
+        .text{
+          margin-top: 20px;
+          padding: 50px;
+          text-align: center;
+          border: solid grey 1px;
+          h2{
+            font-family: "Prata", serif;
+            font-weight: 500;
+          }
+          span{
+            word-spacing: 3px;
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(102, 102, 102);
+          }
+          .checkbox{
+            a{
+              text-decoration: underline;
+              color: black;
+            }
+          }
+          button{
+            width: 10em;
+            border: none;
+            background-color: rgb(253, 228, 233);
+          }
+        }
+      }
+    }
+  }
+}
+
+
